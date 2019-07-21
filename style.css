@@ -1,0 +1,198 @@
+body{
+	**background: #FFEFBA;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.history{
+	font-family: 'Song Myung', serif;
+	color: #fff;
+	border:2px solid white;
+	border-radius: 5px;
+	margin-top: 10px;
+	justify-content: center;
+	background-color: #1B4A47;
+
+}
+.con
+{	margin-top: 20px;
+	padding: 10px;
+	border:5px solid green;
+	border-radius: 10%;
+	
+}
+.con img{
+	border-radius: 10%;
+
+}
+.con1{
+	margin-top: 20px;
+	padding: 10px;
+	border:5px solid green;
+	border-radius: 10%;
+	background: #403B4A;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #E7E9BB, #403B4A);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E7E9BB, #403B4A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.con1 h1{
+	font-family: 'Bevan', cursive;
+}
+.con1{
+	font-family: 'Spinnaker', sans-serif;
+}
+.drp{
+	background: rgb(50,72,96);
+	color: grey;
+}
+.mod1{
+	background: url(img/12.jpg) no-repeat;
+	background-size: cover;
+}
+.mod{
+	padding: 10px;
+	margin: 10px; 
+	color: black;
+	font-size: 20px;
+}
+
+.mod2{
+	margin: 10px; 
+	width: 90%;
+		padding: 10px;
+	color:black;
+	font-size: 20px;
+
+}
+.com{
+	height: 170px;
+}
+.add{
+	height: 100px;
+}
+.head{
+	font-size: 30px;
+	color: ; 
+
+
+}
+
+#photo a{
+	box-shadow: border-box;
+}
+#photo img{
+	width:100%;
+	height: 100%;
+	padding: 10px;
+	margin: auto;
+}
+.galary:hover img{
+	opacity: 0.6;
+	transform: scale(0.95);
+}
+.galary img:hover{
+	opacity: 1;
+	transform: scale(1) rotate(7deg);
+	box-shadow: 0 0 7px rgba(0,0,0,0.5);
+
+}
+#photo{
+	margin: 10px;
+	border: 2px solid grey;
+	border-radius: 20px;
+	background: #44A08D;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #093637, #44A08D);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #093637, #44A08D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	 
+}
+#photo h1{
+	color: #D0D0D0;
+}
+#about{
+	justify-content: center;
+	align-items: center;
+}
+
+.pic{
+	border: 2px solid black;
+	border-radius: 5px;
+	background-color: #001f3f;
+	overflow: hidden;
+}
+.card-img-top{
+	position: relative;
+	
+}
+.pic .card-img-top{
+	border-radius: 5px;
+	transition: 5s;
+	position: relative;
+	overflow: hidden;
+
+}
+.pic:hover .card-img-top{
+	transform: scale(1.5);
+	overflow: hidden;
+}
+/*.pic .card-img-top {
+	position: relative;
+}
+.pic .card-img-top :hover img{
+	
+}*/
+.icons{
+	color: white;
+	font-size: 20px;
+	box-sizing: border-box;
+	
+}
+	
+.card-block{
+	border-radius: 5px;
+	background-color: rgba(0,0,0,0.9);
+	position: relative;
+
+
+}
+
+
+.icon img{
+height: 60px;
+width: 60px;
+border-radius: 50%;
+	}
+	
+.card-block .icon .icon1:hover{
+	transition: 5s;
+transform: scale(1.5);
+	overflow: hidden;
+	
+}
+.card-block .icon .icon2:hover {
+	transition: 5s;
+transform: scale(1.5);
+	overflow: hidden;
+	
+}
+.card-block .icon .icon3:hover {
+	transition: 5s;
+transform: scale(1.5);
+	overflow: hidden;
+	
+}
+.card-block .icon .icon4:hover {
+	transition: 5s;
+transform: scale(1.5);
+	overflow: hidden;
+	
+}
+
+#about .h{
+	font-size: 35px;
+}
+#about {
+	font-family: 'Alice', serif;
+	margin: 20px;
+}
+
